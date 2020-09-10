@@ -7,19 +7,59 @@ body {
   flex-flow: column wrap;
 }
 
-.brothers {
-  align-items: flex-end;
-  display: flex;
+.agrafenaDiv {
+  display: none;
+  flex-flow: column wrap;
 }
 
-.charHolder {
-  display: flex;
-  flex-flow: column wrap;
+.brothers {
+  align-items: flex-end;
+  display: none;
 }
 
 .content {
   align-items: center;
   display: flex;
+  flex-flow: column wrap;
+}
+
+.fyodorDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.grigoryDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.ilyushaDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.inquisitorDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.katerinaDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.liseDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.pavelDiv {
+  display: none;
+  flex-flow: column wrap;
+}
+
+.zossimaDiv {
+  display: none;
   flex-flow: column wrap;
 }
 
@@ -35,6 +75,7 @@ a {
 }
 
 .names {
+  display: none;
   font-family: 'Roboto', sans-serif;
   font-size: 200%;
   padding: 0 1em 1em 1em;
@@ -70,8 +111,6 @@ a {
 /* IMAGES */
 .agrafena {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 18em;
 }
 
@@ -92,29 +131,21 @@ a {
 
 .fyodor {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
 .grigory {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
 .ilyusha {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 8em;
 }
 
 .inquisitor {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
@@ -125,29 +156,21 @@ a {
 
 .katerina {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
 .lise {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 8em;
 }
 
 .pavel {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
 .zossima {
   align-self: center;
-  animation: fadeIn ease 2s;
-  animation-fill-mode: forwards;
   height: 20em;
 }
 
