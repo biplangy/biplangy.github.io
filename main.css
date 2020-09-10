@@ -1,0 +1,172 @@
+/* LAYOUT */
+body {
+  align-items: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.brothers {
+  align-items: flex-end;
+  display: flex;
+}
+
+.charHolder {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* TYPOGRAPHY */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.tag {
+  color: blue;
+  cursor: pointer;
+}
+
+.names {
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  padding: 0 1em 1em 1em;
+}
+
+.names2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  padding: 1em 1em 0 1em;
+}
+
+.title {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 200%;
+  padding: 2em 1em 0 1em;
+  transform: rotate(20deg);
+  transition: 2s linear;
+}
+
+.title2 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 200%;
+  padding: 0 1em 1em 1em;
+}
+
+.synopsis {
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 30% 5%;
+}
+
+/* IMAGES */
+.agrafena {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 18em;
+}
+
+.alexei {
+  height: 16em;
+  padding: 0 2em;
+}
+
+.dmitri {
+  cursor: pointer;
+  height: 20em;
+}
+
+.dmitri2 {
+  height: 20em;
+  padding: 0 2em;
+}
+
+.fyodor {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+.grigory {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+.ilyusha {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 8em;
+}
+
+.inquisitor {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+.ivan {
+  height: 18em;
+  padding: 0 2em;
+}
+
+.katerina {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+.lise {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 8em;
+}
+
+.pavel {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+.zossima {
+  align-self: center;
+  animation: fadeIn ease 2s;
+  animation-fill-mode: forwards;
+  height: 20em;
+}
+
+/* ANIMATION */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
