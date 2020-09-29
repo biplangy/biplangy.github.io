@@ -1,4 +1,3 @@
-const body = document.getElementsByTagName('body')[0]
 const content = document.getElementById('content')
 const icon = document.getElementById('icon')
 const title = document.getElementById('title')
@@ -19,11 +18,6 @@ function delayRemoval()
 
 function introBrothers()
 {
-  const names = document.getElementById('names')
-  names.style.display = "inline"
-  names.style.animation = "fadeIn ease 2s"
-  names.style.animationFillMode = "forwards"
-
   const brothers = document.getElementById('brothers')
   brothers.style.display = "flex"
   brothers.style.animation = "fadeIn ease 2s"
